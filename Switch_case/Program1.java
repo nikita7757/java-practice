@@ -3,9 +3,7 @@ all 5 subject having passing marks add them and provide to switch case to print 
 and clsses if student get fail in any subsect program should print "You tailed in exam 
 */
 
-package Switch_case;
 
-  
 import java.io.*;
 class Program1 {
    public static void main(String[]args)throws IOException{

@@ -2,7 +2,6 @@
  its speling it the number is greater than 5 print entered number is greater than 5.
  */
 
-package Switch_case;
 import java.io.*;
 public class Program2 {
     public static void main(String[]args)throws IOException {
