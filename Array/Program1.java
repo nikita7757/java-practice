@@ -27,6 +27,8 @@ public class Program1 {
            }
         }
         System.out.println(sum);
+
+        obj.close();
         
 
     }
