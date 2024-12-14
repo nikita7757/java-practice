@@ -1,7 +1,6 @@
 /* problem statement - take array of 5 integer elements and array2 of 3 int elements then 
   concatenate both array into arr3*/
 
-
  class ArrayCon {
 
 	public static void main(String[] args) {
