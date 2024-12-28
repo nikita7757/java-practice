@@ -1,0 +1,13 @@
+
+
+public class AdditionMain {
+
+	public static void main(String[] args) {
+		Addition ad =new Addition();
+		ad.showData();
+		ad.add();
+		ad.add(10);
+		ad.add(12, 10);
+	}
+
+}
