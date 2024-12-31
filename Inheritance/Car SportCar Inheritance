@@ -1,3 +1,4 @@
+/*class name - Car.java*/
 
 public class Car {
 	int price,capacity;
@@ -50,6 +51,8 @@ public class Car {
 		this.colour = colour;
 	}
 }
+/*class name- SportCar.java*/
+
 public class SportCar extends Car {
 	private boolean alarm,safeguard;
 	private String navigator;
@@ -84,6 +87,9 @@ public class SportCar extends Car {
 		this.navigator=navigator;
 	}
 }
+/* classname- ex2.java
+
+
 public class ex2 {
 
 	public static void main(String[] args) {
