@@ -1,0 +1,124 @@
+
+public class Car {
+	int price,capacity;
+	String fuletype,engine,colour;
+	
+	public Car() {
+		this.price=800000;
+		this.capacity=10;
+		this.fuletype="petrol";
+		this.engine ="inline-4";
+		this.colour="Red";
+	}
+	
+	public void setPrice(int price) {
+		this.price=price;
+	}
+	public void getPrice() {
+		System.out.println("price ="+price);
+	}
+
+	public void getCapacity() {
+		System.out.println("capacity ="+capacity);
+	}
+
+	public void setCapacity(int capacity) {
+		this.capacity = capacity;
+	}
+
+	public void getFuletype() {
+		System.out.println("fuletype ="+fuletype);
+	}
+
+	public void setFuletype(String fuletype) {
+		this.fuletype = fuletype;
+	}
+
+	public void getEngine() {
+		System.out.println("engine ="+engine);
+	}
+
+	public void setEngine(String engine) {
+		this.engine = engine;
+	}
+
+	public void getColour() {
+		System.out.println("colour ="+colour);
+	}
+
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+}
+public class SportCar extends Car {
+	private boolean alarm,safeguard;
+	private String navigator;
+	
+	public SportCar() {
+		this.alarm= true;
+		this.safeguard=true;
+		this.navigator ="GPS Navigation system";
+	}
+	
+	public boolean getAlarm() {
+		return alarm;
+		
+	}
+	public void setAlarm(boolean alarm) {
+		this.alarm=alarm;
+	}
+	
+	public boolean getSafeguard() {
+		return safeguard;
+	}
+	
+	public void setSafeguard(boolean safeguard) {
+		this.safeguard=safeguard;
+	}
+	
+	public String getNavigator() {
+		return navigator;
+	}
+	
+	public void setNavigator(String navigator) {
+		this.navigator=navigator;
+	}
+}
+public class ex2 {
+
+	public static void main(String[] args) {
+		SportCar ob1 =new SportCar(); // created SportCar obj using reference of child class object
+		
+		System.out.println("Sportcar alarm ="+ob1.getAlarm());
+		System.out.println("Sportcar Safeguard ="+ob1.getSafeguard());
+		System.out.println("Sportcar Navigator ="+ob1.getNavigator());
+		ob1.getCapacity();
+		ob1.getColour();
+		ob1.getPrice();
+		ob1.getEngine();
+		ob1.getFuletype();
+		
+		System.out.println("************************");
+		
+		ob1.setAlarm(false);
+		ob1.setCapacity(500);
+		ob1.setColour("Black");
+		ob1.setEngine("inline-4");
+		ob1.setFuletype("disel");
+		ob1.setNavigator("gps");
+		ob1.setPrice(900000);
+		ob1.setSafeguard(true);
+		
+		
+		System.out.println("Sportcar alarm ="+ob1.getAlarm());
+		System.out.println("Sportcar Safeguard ="+ob1.getSafeguard());
+		System.out.println("Sportcar Navigator ="+ob1.getNavigator());
+		ob1.getCapacity();
+		ob1.getColour();
+		ob1.getPrice();
+		ob1.getEngine();
+		ob1.getFuletype();
+	}
+
+}
+
