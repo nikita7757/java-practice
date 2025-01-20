@@ -1,6 +1,7 @@
+/* problem statement: take elements in arraylist then convert arraylist into linkedlist and then again add some more elements*/
+
 
 import java.util.ArrayList;
-
 import java.util.LinkedList;
 
 public class ArrayList2 {
