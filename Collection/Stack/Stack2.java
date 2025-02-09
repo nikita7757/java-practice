@@ -17,8 +17,6 @@ public class Stack2 {
 		obj.push(10);
 		System.out.println(obj);
 		System.out.println(obj.search(10));
-		
-		
 
 	}
 
