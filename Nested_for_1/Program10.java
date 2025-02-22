@@ -11,7 +11,6 @@ public class Program10 {
                     a++;
             }
             System.out.println();
-         
         }
     }  
 }
