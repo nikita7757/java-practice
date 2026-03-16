@@ -5,7 +5,7 @@ with taking inputs from user
 *******************************************************************************/
 import java.util.*;
 class MoveAllZeros {
-  static  void missingNum(int arr[],int n) {
+  static  void moveZero(int arr[],int n) {
         
       int temp ;;
       int z = 0;
@@ -27,7 +27,7 @@ class MoveAllZeros {
         for(int i =0; i<size; i++){
             arr[i] = sc.nextInt();
         }
-        missingNum(arr,size);
+        moveZero(arr,size);
         for(int i =0; i<size; i++){
              System.out.println(arr[i]);
         }
