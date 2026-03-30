@@ -1,10 +1,9 @@
 /* 
- * Write a program to print the numbers divisible by i from 1 to 50 & the number is even also pret de count of even numbers.
+ * Write a program to print the numbers divisible by i from 1 to 50 & the number is even also print the count of even numbers.
     Input: Enter a lower fimit: 1 Enter upper limit: 50
     Output
  */
 
-package Nested_for_6;
 
 import java.util.Scanner;
 
