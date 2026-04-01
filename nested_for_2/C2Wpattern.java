@@ -1,6 +1,9 @@
-package nested_for_2;
+// pattern printing 
+// C2W1 C2W2 C2W3
+// C2W1 C2W2 C2W3
+// C2W1 C2W2 C2W3
 
-public class Program1 {
+public class C2Wpattern {
     public static void main(String [] args){
         for(int i = 1; i<=3; i++){
             int a =1;
