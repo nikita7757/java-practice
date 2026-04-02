@@ -1,6 +1,12 @@
 //package java-dailyflash.Daily_Ass.Control_Statement.nested_for_4;
+// print pattern:-
 
-public class Program1 {
+// c2w10 
+// c2w9 c2w8 
+// c2w7 c2w6 c2w5 
+// c2w4 c2w3 c2w2 c2w1 
+
+public class C2W {
     public static void main(String[]args){
         int i,j,rows=4;
         int a=10;
