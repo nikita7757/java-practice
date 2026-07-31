@@ -1,4 +1,8 @@
-package nested_for_2;
+// pattern :
+// 4	4	4	4	
+// 5	5	5	5	
+// 6	6	6	6	
+// 7	7	7	7	
 
 public class Program2 {
     public static void main(String [] args){
